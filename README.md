@@ -1,6 +1,6 @@
 Google Homepage
 ======================
-A reconstruction of the [Google](www.google.com) Homepage.
+A static reconstruction of the [Google](www.google.com) Homepage.
 
 Getting Started
 ----------------------
