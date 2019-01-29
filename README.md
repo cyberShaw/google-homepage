@@ -4,8 +4,12 @@ A static reconstruction of the [Google](www.google.com) Homepage.
 
 Getting Started
 ----------------------
-+ Clone repository.
+### To Run Locally:
++ Clone repository. 
 + Open index.html in a browser of your choice.
+
+### Github Pages
++ Visit this repository's [website](https://thewhitewolf17.github.io/google-homepage/)
 
 Built With
 ----------------------
