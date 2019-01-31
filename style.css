@@ -38,6 +38,9 @@ main {
 }
 
 main input[type=text] {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
     margin: 20px auto;
     border-radius: 2px;
     border: none;

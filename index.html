@@ -22,7 +22,7 @@
             <img src="./images/googlelogo-color.png" width="272" alt="googlelogo-color">
         </div>
         <div>
-            <input type="text" name="searchbox" id="searchbox">
+            <input id="textbox" type="text" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);}" />
         </div>
         <div>
             <input type="button" value="Google Search">
