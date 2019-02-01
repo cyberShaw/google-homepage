@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,7 +25,7 @@
             <input id="textbox" type="text" onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);}" />
         </div>
         <div>
-            <input type="button" value="Google Search">
+            <input type="button" value="Google Search" onclick="location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);" />
             <input type="button" value="I'm Feeling Lucky">
         </div>
     </main>
